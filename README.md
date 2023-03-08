@@ -71,3 +71,7 @@ This speed checker uses multipart uploads to transfer a file from your browser t
 Note: In general, the farther away you are from an Amazon S3 region, the higher the speed improvement you can expect from using Amazon S3 Transfer Acceleration. If you see similar speed results with and without the acceleration, your upload bandwidth or a system constraint might be limiting your speed.
 
 http://s3-accelerate-speedtest.s3-accelerate.amazonaws.com/en/accelerate-speed-comparsion.html
+
+## 4 . Metadata 
+
+169.254.168.254/latest/meta-data
