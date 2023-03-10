@@ -81,3 +81,28 @@ http://s3-accelerate-speedtest.s3-accelerate.amazonaws.com/en/accelerate-speed-c
  Name
  Backup yes/no
  System
+ 
+## 6. FORMAT FILE SYSTEM & MOUNT THE ATTACHED EBS VOLUME
+ 
+Suppose: you have an EC2 instance + EBS volume /dev/xvda. You have just attached an empty EBS volume /dev/sdf.
+ 
+ lsblk
+ 
+ sudo yum install xfsprogs
+ 
+ sudo file -s /dev/xvdf
+( 'file -s' command to get information about a specific device)
+ 
+ sudo mkfs -t xfs /dev/xvdf
+  
+ sudo mkdir /data
+ 
+ sudo mount /dev/xvdf /data
+            orig -> destin
+  
+ df -h
+ 
+ 
+  
+  
+ 
