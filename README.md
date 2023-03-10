@@ -75,3 +75,9 @@ http://s3-accelerate-speedtest.s3-accelerate.amazonaws.com/en/accelerate-speed-c
 ## 4 . Metadata 
 
 169.254.168.254/latest/meta-data
+
+## 5 . TAG
+
+ Name
+ Backup yes/no
+ System
