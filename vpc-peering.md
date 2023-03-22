@@ -33,7 +33,9 @@ O processo de conectar duas VPCs em regiões diferentes usando o VPC Peering e o
 5. Verifique a conectividade: Após estabelecer a conexão, teste a conectividade entre as VPCs para garantir que a comunicação esteja funcionando corretamente.
 
 *PREMISSAS* 
+
 A) O VPC Peering entre regiões só é possível se as VPCs envolvidas tiverem faixas de endereços IP que não se sobrepõem. 
 
 *DETALHE*
+
 A) O tráfego de rede entre regiões é cobrado como transferência de dados entre regiões.
