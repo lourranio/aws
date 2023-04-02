@@ -121,10 +121,15 @@ curl http://169.254.169.254/latest/meta-data/instance-id >> index.htm
 Ao criar instâncias na AWS, as tags mais recomendadas para adicionar como chave (key) e valor (value) dependem do contexto da sua aplicação e dos seus requisitos de negócios. Abaixo estao algumas das tags comuns que podem ser adicionadas:
 
 *Nome*: para identificar a instância pelo nome
+
 *Ambiente*: para identificar o ambiente da instância (desenvolvimento, teste, produção etc.)
+
 *Proprietário*: para identificar o proprietário da instância
+
 *Projeto*: para identificar o projeto da instância
+
 *Custo*: para identificar o custo associado à instância
+
 *Data de criação*: para identificar a data em que a instância foi criada
 
 Essas tags ajudam na identificação e organização das instâncias, facilitando a gerência e a monitoração da infraestrutura.
